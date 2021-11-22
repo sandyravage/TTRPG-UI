@@ -1,0 +1,19 @@
+<div class="center-text">
+    <h2>Your Hand</h2>
+    <div class="flexin">
+        <ng-container *ngFor="let card of hand; index as i;">
+            <div class="flex-vertical">
+                <app-card 
+                    [cost]="card.cost"
+                    [name]="card.name"
+                    [effect]="card.effect"
+                    [phase]="card.phase"
+                    [rolls]="card.rolls"
+                ></app-card>
+                <button (click)="discard(i)">Play Card</button>
+            </div>
+        </ng-container>
+    </div>
+</div>
+
+

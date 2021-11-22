@@ -1,0 +1,210 @@
+[
+    {
+        "rolls": [
+            {
+                "name": "Predator Instincts",
+                "values": [
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    },
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    },
+                    {
+                        "value": "4-5",
+                        "label": "agile"
+                    },
+                    {
+                        "value": "4-5",
+                        "label": "agile"
+                    },
+                    {
+                        "value": "4-5",
+                        "label": "agile"
+                    }
+                ],
+                "effect": "Gain Evasive. Deal 5 damage."
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Flechette Cannon",
+                "values": [
+                    {
+                        "value": "Large Straight"
+                    }
+                ],
+                "effect": "Gain Evasive. Deal 3 undefendable damage"
+            },
+            {
+                "name": "Sonic Detonator",
+                "values": [
+                    {
+                        "value": "4-5",
+                        "label": "agile"
+                    },
+                    {
+                        "value": "4-5",
+                        "label": "agile"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    }
+                ],
+                "effect": "Gain Evasive. Inflict Stagger. Deal 1 undefendable damage."
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Distruptor",
+                "values": [
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    }
+                ],
+                "effect": "Inflict Stagger. Deal 6 undefendable damage"
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Born Killer",
+                "values": [
+                    {
+                        "value": "Small Straight"
+                    }
+                ],
+                "effect": "After targeting an opponent, you each roll 1 die. If your roll is equal or greater, deal 7 damage. Otherwise deal 5 damage"
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Bounty Hunter",
+                "values": [
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    },
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    }
+                ],
+                "effect": "Inflict Bounty. Then deal 1 undefendable damage"
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Kiavene",
+                "values": [
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    },
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    },
+                    {
+                        "value": "1-3",
+                        "label": "blaster"
+                    }
+                ],
+                "effect": "Deal 3 Damage. For each 1-3 rolled beyond 3 add 1 damage"
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Predator Reflexes",
+                "values": [
+                    {
+                        "value": "passive"
+                    }
+                ],
+                "effect": "During your Upkeep, gain Reflex"
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "Duel",
+                "values": [
+                    {
+                        "value": "1-6"
+                    }
+                ],
+                "effect": "You and your Attacker each roll 1 die. If your roll is greater, you may choose to either deal 3 damage or prevent 1/2 damage dealt to you, rounded up. If your roll is less, deal 1 damage"
+            }
+        ]
+    },
+    {
+        "rolls": [
+            {
+                "name": "No One Escapes",
+                "values": [
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    },
+                    {
+                        "value": "6",
+                        "label": "predator"
+                    }
+                ],
+                "effect": "Gain Evasive. Inflict Bounty & Stagger. Then deal 10 unblockable damage. If you spend a Reflex, you may re-roll that die one time"
+            }
+        ]
+    }
+]

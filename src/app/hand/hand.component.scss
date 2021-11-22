@@ -1,0 +1,14 @@
+.flexin {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-vertical {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.center-text {
+    text-align: center;
+}

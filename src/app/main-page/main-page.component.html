@@ -1,0 +1,38 @@
+<div class="flex full">
+    <div class="fifth flex-vertical bit-o-margin">
+        <div class="half width">
+            <app-status-effects-display [statusEffects]="character.effects"></app-status-effects-display>
+        </div>
+        <div class="half width">
+            
+        </div>
+    </div>
+    <div class="four-fifths flex-vertical bit-o-margin">
+        <div class="segment">
+            <div class="half flex">
+                <div class="half">
+                    <app-life-points-counter></app-life-points-counter>
+                </div>
+                <div class="half">
+                    <app-command-points-counter></app-command-points-counter>
+                </div>
+            </div>
+            <div class="half">
+                <app-dice-roller [playerDice]="character.dice"></app-dice-roller>
+            </div>
+        </div>
+        <div class="segment">
+            <div class="width">
+                <app-skill-display [skills]="character.skills"></app-skill-display>
+            </div>            
+        </div>
+        <div class="segment">
+            <div class="two-thirds">
+                <app-hand [(hand)]="hand" (skillCardPlayed)="handleSkillCard($event)"></app-hand>
+            </div>
+            <div class="third">
+                <app-deck [initialDeck]="character.deck" (cardDrawn)="handleCard($event)"></app-deck>
+            </div>
+        </div>
+    </div>    
+</div>

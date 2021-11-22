@@ -1,0 +1,17 @@
+<div class="border">
+    <div class="image">Image Placeholder</div>
+    <div *ngIf="cost">Cost: {{cost}}</div>
+    <div *ngIf="rolls?.length; else commandCard">
+        <ng-container *ngFor="let roll of rolls">
+            <div>Name: {{roll.name}}</div>
+            <div>Roll: {{parseRoll(roll.values)}}</div>
+            <div>Effect: {{roll.effect}}</div>
+            <hr>
+        </ng-container>
+    </div>
+    <ng-template #commandCard>
+        <div>Name: {{name}}</div>
+        <div>Phase: {{phase}}</div>
+        <div>Effect: {{effect}}</div>
+    </ng-template>
+</div>

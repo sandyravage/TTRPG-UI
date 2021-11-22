@@ -1,0 +1,8 @@
+<div class="centered">
+    <h2>Your Skills</h2>
+    <div class="flexin">
+        <ng-container *ngFor="let skill of skills">
+            <app-card [rolls]="skill.rolls"></app-card>
+        </ng-container>
+    </div>
+</div>

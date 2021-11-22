@@ -1,0 +1,10 @@
+<h2>Dice Roller</h2>
+<div class="flex bit-o-margin">
+    <div *ngFor="let die of currentDice; index as i;" class="flex-vertical">
+        <div class="die">
+            {{die.value}}         
+        </div>
+        <button class="margin-top" (click)="toggleHeld(i)">{{die.held ? 'Unlock' : 'Lock'}}</button>
+    </div>
+    <button (click)="roll()"><h3>Roll</h3></button>
+</div>

@@ -1,0 +1,59 @@
+.segment {
+    width: 100%;
+    height: 33%;
+    min-height: 33%;
+    display: flex;
+}
+
+.third {
+    width: 33%;
+    min-width: 33%;
+    height: 100%;
+}
+
+.half {
+    width: 50%;
+    min-width: 50%;
+    height: 100%;
+}
+
+.two-thirds {
+    width: 66%;
+    min-width: 66%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fifth {
+    width: 20%;
+    min-width: 20%;
+    height: 100%;
+}
+
+.four-fifths {
+    width: 80%;
+    min-width: 80%;
+    height: 100%;
+}
+
+.full {
+    height: 100%;
+}
+
+.width {
+    width: 100%;
+}
+
+.bit-o-margin {
+    margin: 5px;
+}
